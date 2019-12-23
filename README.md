@@ -12,6 +12,11 @@ _q0_ is the coin operator, qubits _[1, n-1]_ are used for encoding the nodes in 
 
 The multi-controlled Toffoli gate _mct_ integrated in Qiskit is used, needing _O(n)_ auxiliary qubits, and using _O(n)_ basic gates. Since a step of the QW needs _O(n)_ such operations, the use of gates grows as _O(n^2)_.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/VicPinaCanelles/discrete-time-quantum-walks/master/Fujiwara/qw-gate-fujiwara.png"><br>
+  <i>Total gate count of one QW step vs. number of qubits (coin + nodes).</i>
+</p>
+
 Other implementations of the _mct_ gate use _O(n^2)_ gates without auxiliary qubits, making the total gate count grow as _O(n^3)_.
 
 
