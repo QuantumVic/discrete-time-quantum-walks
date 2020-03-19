@@ -1,5 +1,8 @@
 # Discrete-Time Quantum Walks
 
+__License__: <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>
+
+
 ## Douglas&Wang, Fujiwara schemes (Toffoli-based)
 
 * Reference by [Douglas & Wang](https://arxiv.org/abs/0706.0304),
